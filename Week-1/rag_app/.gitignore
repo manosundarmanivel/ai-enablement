@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Qdrant Vector Database
+qdrant_data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# Data files (if you don't want to commit PDFs)
+data/documents/*.pdf
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints

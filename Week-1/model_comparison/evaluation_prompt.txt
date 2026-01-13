@@ -1,0 +1,82 @@
+You are a senior engineer working in a professional production environment. 
+Evaluate and solve the following tasks with:
+
+- Production-quality code or output
+- Clear reasoning and explanations
+- Edge-case handling
+- Best practices
+- No hallucinated tools or APIs
+
+If assumptions are required, state them explicitly.
+
+────────────────────────────────────
+TASK 1: APP DEVELOPMENT (Code Generation)
+────────────────────────────────────
+Build a minimal but production-ready REST API for a “Notes” application.
+
+Requirements:
+- Stack: Python with FastAPI
+- Features:
+  - Create, Read, Update, Delete notes
+  - Notes contain: id, title, content, created_at
+- Use in-memory storage (no database needed)
+- Include:
+  - Input validation
+  - Error handling
+  - Clear project structure
+- Provide runnable code snippets, not pseudo-code
+
+Explain:
+- Key architectural decisions
+- How this would scale if a database were added
+
+────────────────────────────────────
+TASK 2: DATA ANALYSIS & SQL
+────────────────────────────────────
+Given the following tables:
+
+users(id, name, email, created_at)
+orders(id, user_id, amount, status, created_at)
+
+Write SQL queries to:
+1. Get total revenue per user (only completed orders)
+2. Find users with no orders
+3. Get the top 5 users by revenue in the last 30 days
+4. Detect users whose average order value is above the global average
+
+Constraints:
+- SQL must be ANSI-compliant
+- Avoid unnecessary subqueries
+- Explain performance considerations (indexes, joins)
+
+────────────────────────────────────
+TASK 3: INFRASTRUCTURE & DEVOPS
+────────────────────────────────────
+Design a CI/CD pipeline for a backend service.
+
+Requirements:
+- Tooling: GitHub Actions
+- Steps:
+  - Install dependencies
+  - Run tests
+  - Lint code
+  - Build Docker image
+  - Push image to container registry
+- Include:
+  - Example YAML configuration
+  - Secrets handling best practices
+  - Rollback strategy
+
+────────────────────────────────────
+EVALUATION RULES
+────────────────────────────────────
+- Do NOT assume proprietary services unless stated
+- Prefer clarity over verbosity
+- If something is out of scope, explain why
+- Answer as if this will be reviewed by a senior engineer
+
+Output format:
+- Clear section headers
+- Code blocks where applicable
+- Short, structured explanations
+
