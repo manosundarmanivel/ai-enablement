@@ -1,3 +1,6 @@
+DEMO LINK - https://drive.google.com/file/d/1Ui5F8Iqs5RYKXw7z-ucCAIwVGJmEs_bo/view?usp=sharing
+
+
 # Week-6: Observable & Guarded LangChain Agent
 
 A production-ready LangChain agent demonstrating enterprise-grade AI safety patterns with **LangFuse Tracing**, **NeMo Guardrails**, and **Agent Evaluation**.
